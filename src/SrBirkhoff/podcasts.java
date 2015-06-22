@@ -113,7 +113,7 @@ public class podcasts extends javax.swing.JFrame {
 
         String comando = "firefox http://jovemnerd.com.br/categoria/nerdcast"; 
         try {
-            Process processo = Runtime.getRuntime().exec(comando); // abre o site do jovem nerd
+            Process processo = Runtime.getRuntime().exec(comando); // abre o site do jovem nerd :)
         } catch (IOException ex) {
             Logger.getLogger(podcasts.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -123,7 +123,7 @@ public class podcasts extends javax.swing.JFrame {
         // oi
         String comando = "firefox https://itunes.apple.com/us/podcast/geek-vox/id582843897?mt=2&ign-mpt=uo%3D4"; 
         try {
-            Process processo = Runtime.getRuntime().exec(comando); // abre o feed do geek vox no itunes
+            Process processo = Runtime.getRuntime().exec(comando); // abre o feed do geek vox no itunes :)
         } catch (IOException ex) {
             Logger.getLogger(podcasts.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -171,7 +171,7 @@ public class MainProjectZ extends javax.swing.JFrame {
         } catch (IOException ex) {
             Logger.getLogger(jogos.class.getName()).log(Level.SEVERE, null, ex);
         }
-                  setExtendedState(ICONIFIED); // minimiza a janela
+                  setExtendedState(ICONIFIED); // minimiza a janela :)
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**

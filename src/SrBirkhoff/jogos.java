@@ -140,7 +140,7 @@ public class jogos extends javax.swing.JFrame {
         // minecraft
         String comando = "java -jar /home/doritos/ProjectZ/Minecraft.jar";  // diretório do programa a ser executado a baixo
         try {  
-            Process processo = Runtime.getRuntime().exec(comando); // executa o programa minecraft
+            Process processo = Runtime.getRuntime().exec(comando); // executa o programa minecraft :)
         } catch (IOException ex) {
             Logger.getLogger(jogos.class.getName()).log(Level.SEVERE, null, ex);
         }
